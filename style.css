@@ -1,0 +1,60 @@
+:root {
+    --TitleFont: 24pt;
+    --SubTitleFont: 20pt;
+    --TextFont:18pt;
+    --SubTextFont:14pt;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 24pt;
+}
+
+header {
+    background-color: #7174b3;
+    width: 100vw;
+    display: flex;
+    height: 20vh;
+}
+
+#title {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+#appName {
+    color: white;
+}
+
+nav {
+    width: 80%;
+
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+}
+
+li a {
+    color: white;
+    font-size: var(--TextFont);
+}
